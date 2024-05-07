@@ -1,0 +1,14 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip22_1464">
+			<rect id="Logo--linkedin" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Logo--linkedin" width="24.000000" height="24.000000" fill="rgb(42, 37, 75)" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip22_1464)">
+		<path id="Vector" d="M19.65 3L4.34 3C3.59 3 3 3.6 3 4.27L3 19.64C3 20.32 3.59 20.92 4.34 20.92L19.65 20.92C20.4 20.92 21 20.32 21 19.64L21 4.27C21 3.6 20.4 3 19.65 3ZM8.32 18.29L5.69 18.29L5.69 9.75L8.32 9.75L8.32 18.29ZM7.05 8.55C6.22 8.55 5.47 7.87 5.47 6.97C5.47 6.07 6.15 5.39 7.05 5.39C7.87 5.39 8.62 6.07 8.62 6.97C8.62 7.87 7.87 8.55 7.05 8.55ZM18.37 18.22L15.75 18.22L15.75 14.02C15.75 13.05 15.75 11.7 14.32 11.7C12.9 11.7 12.75 12.82 12.75 13.87L12.75 18.14L10.12 18.14L10.12 9.75L12.6 9.75L12.6 10.87L12.67 10.87C13.05 10.2 13.95 9.44 15.22 9.44C17.92 9.44 18.45 11.25 18.45 13.57L18.45 18.22L18.37 18.22Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
