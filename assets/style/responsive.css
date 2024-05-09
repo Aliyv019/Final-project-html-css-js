@@ -18,6 +18,9 @@
         display: flex;
         align-items: center;
     }
+    nav ul{
+        display: none;
+    }
     .head_text p{
         color: rgb(255, 255, 255);
         font-family: Satoshi;
@@ -62,10 +65,11 @@
     .section1{
         width: 100%;
         background: rgb(249, 249, 249);
+        display: flex;
+        flex-direction: column;
+        padding: 0;
     }
-    .info{
-        height: 756.36px;
-    }
+    
     #chair_photo{
         width: 100%;
     }
@@ -187,7 +191,7 @@
         border: none;
         padding: 16px 0px;
     }
-    input[type="text"]::placeholder{
+    input[type="number"]::placeholder{
         text-align: center;
     }
     .quantity img{
@@ -197,11 +201,20 @@
         right: 16px;
         bottom: 14px;
     }
+    #minus{
+        left: 16px;
+        right: 0;
+    }
+
     .buttons{
         margin: 32px 24px 30px 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .info{
+        padding-bottom: 20px;
+        margin-left: 0px;
     }
     #save{
         background-color: white;
