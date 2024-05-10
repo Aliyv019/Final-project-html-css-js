@@ -212,4 +212,211 @@ input[type="number"]::placeholder{
 }
 .quantity{
     position: relative;
+    width: 122px;
+    margin-bottom: 48px;
+}
+.quantity img{
+    position: absolute;
+        height: 22px;
+        width: 11px;
+        right: 16px;
+        bottom: 14px;
+}
+#minus{
+    left: 16px;
+    right: 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 337px;
+}
+.buttons a{
+    padding: 16px 32px;
+    text-decoration: none;
+}
+#save{
+    background: rgb(255, 255, 255);
+    color: rgb(42, 37, 75);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 16px;
+}
+#cart{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+    background: rgb(42, 37, 75);
+}
+.cards{
+    display: none;
+}
+.cards2{
+    display: flex;
+    margin-left: 80px;
+}
+.cards2 img{
+    height: 375px;
+    margin-right: 20px;
+}
+#sec2_txt{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 32px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 80px;
+margin-top: 64px;
+margin-bottom: 25px;
+}
+.name{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin: 0;
+}
+.price{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 18px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.see_collection{
+    padding: 16px 32px;
+    margin-left: 635px;
+    background: rgb(249, 249, 249);
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-decoration: none;
+text-align: left;
+
+}
+.buttons2{
+    margin-top: 44px;
+}
+
+.feature_card{
+    background: rgb(249, 249, 249);
+    padding: 48px;
+}
+.features2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+    margin-bottom: 80px;
+}
+.feat_main{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+width: 199px;
+}
+.feat_desc{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+width: 209px;
+}
+.feat_head{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 24px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 80px;
+text-align: center;
+margin-bottom: 36px;
+}
+.section4{
+    display: flex;
+}
+.section4 img{
+    width: 720px;
+    height: 521px;
+}
+#responsive_email_photo{
+    display: none;
+}
+.sign_head{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 32px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 21px;
+}
+.sign_desc{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 216px;
+width: 470px;
+}
+.signup{
+    margin-left: 72px;
+    margin-top: 71px;
+}
+input[type="email"]::placeholder{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.2;
+width: 117px;
+}
+.sign_input input{
+    border: none;
+    background: rgb(249, 249, 0);
+}
+.sign_input a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+background: rgb(42, 37, 75);
+padding: 16px 32px;
+text-decoration: none;
 }
