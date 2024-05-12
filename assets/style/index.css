@@ -111,3 +111,138 @@ padding: 16px 32px;
 background: rgb(249, 249, 249);
 margin-left: 56px;
 }
+.feature_card{
+    background: rgb(249, 249, 249);
+    padding: 48px;
+}
+.features2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+}
+.feat_main{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+width: 199px;
+}
+.feat_desc{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+width: 209px;
+}
+.feat_head{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 24px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 80px;
+text-align: center;
+margin-bottom: 36px;
+}
+.section3 img{
+    height: 375px;
+    margin-right: 20px;
+}
+.cards{
+    display: flex;
+    margin-bottom: 48px;
+}
+.section3{
+    padding: 110px  80px 0 80px;
+}
+.name{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.price{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 18px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.section3 a{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+background: rgb(249, 249, 249);
+padding: 16px 32px;
+margin-left: 555px;
+}
+.section4{
+    padding: 100px 80px 60px;
+    display: flex;
+}
+.sec4_1{
+    background: rgb(42, 37, 75);
+    width: 634px;
+    height: 360px;
+    padding: 64px 64px 54px;
+}
+.sec4_1 h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 32px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+.sec4_1 p{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 205px;
+}
+.sec4_1 a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+background: rgba(249, 249, 249, 0.15);
+padding: 16px 32px;
+}
+.sec4_2 img{
+    height: 478px;
+    margin-left: 16px;
+}
+.section5{
+    background: url(../image/club_image.png);
+    background-size: cover;
+    background-position: center;
+    height: 444px;
+}
