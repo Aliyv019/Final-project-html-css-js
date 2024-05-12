@@ -1,409 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 @media screen and (max-width:390px) {
-    header{
-        height: 54px;
-        background-color: rgb(42, 37, 75);
-        display: flex;
-        align-items: center;
-        width: auto;
-        padding: 0px 16px;
-    }
-    .head_icon img{
-        background-color: rgb(42, 37, 75)
-    }
-    .head_text{
-        display: flex;
-        align-items: center;
-    }
-    nav ul{
+    nav{
         display: none;
     }
-    .head_text p{
-        color: rgb(255, 255, 255);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-left: 11px;
-        margin-right: 16px;
-    }
-    .icons img{
-        width: 16px;
-        height: 16px;
-        margin-right: 20px;
-    }
-    #menu_icon{
-        margin-right: 0;
-    }
-    nav{
+    .head1{
         display: flex;
-        height: 70px;
         align-items: center;
         justify-content: space-between;
-    }
-    .icons{
-        margin-right: 24px;
-    }
-    .main_menu{
-        text-decoration: none;
-        margin-left: 24px;
-    }
-    .main_menu h1{
-        color: rgb(34, 32, 46);
-        font-family: Clash Display;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 30px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .section1{
-        width: 100%;
-        background: rgb(249, 249, 249);
-        display: flex;
-        flex-direction: column;
+        position: relative;
         padding: 0;
     }
-    
-    #chair_photo{
-        width: 100%;
-    }
-    .name{
-        margin-top: 28px;
-        margin-left: 24px;
-    }
-    .name h1{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-left: 28px;
-    }
-    .name p{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-left: 28px;
-    }
-    #after_name{
-        margin: 15.5px 24px 28.5px;
-        border: 1px solid rgb(235, 232, 244)
-    }
-    .description{
-        margin: 0px 24px;
-    }
-    #description{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    #text{
-        color: rgb(42, 37, 75);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .dimensions{
-        margin: 28px 24px;
-        position: relative;
-    }
-    .dimensions p{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .hr{
-        border: 1px solid rgb(235, 232, 244)
-    }
-    .table h2{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .table p{
-        color: rgb(42, 37, 75);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        margin-top: 15px;
-        text-align: left;
-    }
-    .table_main{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-    #table_center{
-        border-left: 1px solid rgb(235, 232, 244);
-        border-right: 1px solid rgb(235, 232, 244);
-        padding: 0px 15%;
-    }
-    #after_dimension{
-        margin: 11.5px 0 16.5px;
-    }
-    .quantity{
-        margin: 28px 24px 32px;
-        position: relative;
-    }
-    .quantity label{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .quantity input{
-        margin-top: 8px;
-        display: flex;
-        width: 100%;
-        align-items: center;
-        border: none;
-        padding: 16px 0px;
-    }
-    input[type="number"]::placeholder{
-        text-align: center;
-    }
-    .quantity img{
+    .search{
         position: absolute;
-        height: 22px;
-        width: 11px;
-        right: 16px;
-        bottom: 14px;
+        right: 56px;
     }
-    #minus{
-        left: 16px;
-        right: 0;
-    }
-
-    .buttons{
-        margin: 32px 24px 30px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .info{
-        padding-bottom: 20px;
-        margin-left: 0px;
-    }
-    #save{
-        background-color: white;
-        text-align: center;
-        color: rgb(42, 37, 75);
-        font-family: Satoshi;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: center;
-        text-decoration: none;
-        width: 100%;
-        padding: 16px 0px;
-    }
-    #cart{
-        background-color: rgb(42, 37, 75);
-        color: rgb(255, 255, 255);
-        font-family: Satoshi;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: center;
-        text-decoration: none;
-        margin-top: 14px;
-        width: 100%;
-        padding: 16px 0px;
-    }
-    .section2{
-        height: 573px;
-        background-color: white;
-    }
-    #sec2_txt{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: 0%;
-        text-align: left;
-        margin: 48px 26px 0px;
-    }
-    .cards{
-        margin: 36px 0px 32px 24px;
-        display: flex;
-        overflow: hidden;
-    }
-    #card1{
+    .menu{
+        display: block;
         margin-right: 20px;
     }
-    .name{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-left: 0;
+    .user{
+        display: none;
     }
-    .price{
-        color: rgb(42, 37, 75);
-        font-family: Satoshi;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: left;
+    .cart{
+        display: none;
     }
-    
-    .vertline1{
-        position: absolute;
-        height: 44px;
-        width: 0px;
-        border: 1px solid rgb(235, 232, 244);
-        top: 73px;
-        left: 98px;
-    }
-    .vertline2{
-        position: absolute;
-        height: 44px;
-        width: 0px;
-        border: 1px solid rgb(235, 232, 244);
-        top: 73px;
-        left: 247px;
-    }
-    .see_collection{
-        color: rgb(42, 37, 75);
-        font-family: Satoshi;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: center;
-        background: rgb(249, 249, 249);
-        width: 100%;
-        text-decoration: none;
-        padding: 16px 0px;
+    .head_icons{
         margin: 0;
-    }
-    .buttons2{
-        margin: 32px 24px 30px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: rgb(249, 249, 249);
-    }
-    .features{
-        margin: 38px 24px 0px;
-        
-    }
-    .features2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .feat_head{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-        width: 274px;
-    }
-    .feat_main{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .feat_desc{
-        color: rgb(42, 37, 75);
-        font-family: Satoshi;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .feature_card{
-        background: rgb(249, 249, 249);
-        padding: 24px 36px;
-        margin-bottom: 26px;
-    }
-    .section4{
-        margin-top: 50px;
-        padding-bottom: 46px;
-    }
-    .section4 img{
-        width: 100%;
-    }
-    .sign_head{
-        color: rgb(42, 37, 75);
-        font-family: Clash Display;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-bottom: 16px;
-    }
-    .sign_desc{
-        color: rgb(42, 37, 75);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-bottom: 56px;
-    }
-    .signup{
-        margin: 20px 24px 0px;
-    }
-    .sign_input{
         display: flex;
     }
-    .sign_input input{
-        padding: 17px 0px 17px 32px;
-        background: rgb(249, 249, 249);
-        border: none;
+    .home{
+        margin: 20px 24px;
     }
-    .sign_input input[type=email]::placeholder{
+    header hr{
+        display: none;
+    }
+    .luxury_main{
+        display: none;
+    }
+    .luxury_resp{
+        display: block;
         color: rgb(42, 37, 75);
         font-family: Satoshi;
         font-size: 16px;
@@ -411,140 +45,33 @@
         line-height: 22px;
         letter-spacing: 0%;
         text-align: left;
-        opacity: 0.2;
+        margin-bottom: 32px;
     }
-    .sign_input a{
-        background: rgb(42, 37, 75);
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-family: Satoshi;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: center;
-        padding: 16px 32px;
-    }
-    footer{
-        background: rgb(42, 37, 75);
-    }
-    .footer{
-        
-        padding: 40px 65px 0px 24px;
-    }
-    footer h1{
-        color: rgb(255, 255, 255);
+    .luxury h1{
+        color: rgb(42, 37, 75);
         font-family: Clash Display;
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 400;
-        line-height: 140%;
+        line-height: 30px;
         letter-spacing: 0%;
         text-align: left;
-        margin-top: 40px;
+        margin: 0;
+        position:;
     }
-    footer a{
-        text-decoration: none;
+    .section1 img{
+        display: block;
     }
-    #address{
-        color: rgb(255, 255, 255);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0%;
-        text-align: left;
+    .section1{
+        background: none;
     }
-    .address{
-        width: 152px;
+    .luxury{
+        position: static;
+        height: 256px;
+        width: 341px;
+        padding: 47px 24px 32px 24px;
     }
-    .social_link{
-        margin-left: 29px;
-        margin-top: 57px;
+    .luxury a{
+        margin: 0;
+        padding: 16px 115.5px;
     }
-    .social_link p{
-        color: rgb(255, 255, 255);
-        font-family: Clash Display;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-bottom: 29px;
-    }
-    .foot1{
-        display: flex;
-    }
-    .our_company h2{
-        color: rgb(255, 255, 255);
-        font-family: Clash Display;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .our_company{
-        display: flex;
-        flex-direction: column;
-        margin-top: 48px;
-    }
-    .our_company a{
-        color: rgb(255, 255, 255);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0%;
-        text-align: left;
-        text-decoration: none;
-        margin-top: 12px;
-    }
-    .foot2{
-        display: flex;
-    }
-    .new_arrivals{
-        display: flex;
-        flex-direction: column;
-        margin-left: 76px;
-        margin-top: 48px;
-    }
-    .new_arrivals h2{
-        color: rgb(255, 255, 255);
-        font-family: Clash Display;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .new_arrivals a{
-        color: rgb(255, 255, 255);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-top: 12px;
-    }
-    #foot_hr{
-        width: 342px;
-        border: 1px solid rgb(78, 77, 147);
-        
-        margin: 39.5px 24px 20.5px;
-    }
-    #copyright{
-        color: rgb(255, 255, 255);
-        font-family: Satoshi;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0%;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    .cards2{
-        display: none;
-    }
-    
 }

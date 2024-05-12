@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    height: 41px;
+    background: rgb(42, 37, 75);
+    display: flex;
+    justify-content: center;
+    padding-right: 16px;
+}
+.head_icon img{
+    background-color: rgb(42, 37, 75)
+}
+.head_text a{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.head_text{
+    display: flex;
+    align-items: center;
+}
+.head_text p{
+    color: rgb(255, 255, 255);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    margin-left: 8px;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.main_menu{
+
+    text-decoration: none;
+    
+}
+.main_menu h1{
+    color: rgb(34, 32, 46);
+    font-family: Clash Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#menu_icon{
+    display: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-right: 44px;
+}
+nav ul a{
+    color: rgb(114, 110, 141);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+#chair_photo{
+    width: 607px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.section1{
+    background: rgb(249, 249, 249);
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 47px;
+    padding-right: 188px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin-left: 67px;
+}
+.name h1{
+    color: rgb(42, 37, 75);
+    font-family: Clash Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.name p{
+    color: rgb(42, 37, 75);
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.name{
+    margin-bottom: 27.5px;
+}
+.hr{
+    border: 1px solid rgb(235, 232, 244)
+}
+#description{
+    display: none;
+}
+#after_name{
+    margin-bottom: 24.5px;
+}
+#description_pc{
+    color: rgb(42, 37, 75);
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+#text{
+    color: rgb(42, 37, 75);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#after_dimension{
+    display: none;
+}
+.description{
+    margin-bottom: 36px;
+}
+.dimensions{
+    margin-bottom: 40px;
+}
+.dimensions p{
+    color: rgb(42, 37, 75);
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.table_main{
+    display: flex;
+    margin-top: 24px;
+}
+.table h2{
+    color: rgb(42, 37, 75);
+    font-family: Clash Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.icons a{
+    margin-left: 16px;
+}
+.table p{
+    color: rgb(42, 37, 75);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#table_center{
+    padding: 0 10%;
+    margin: 0 10%;
+    border-left: 1px solid rgb(235, 232, 244);
+    border-right: 1px solid rgb(235, 232, 244);
+}
+.quantity label{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.quantity input{
+    margin-top: 8px;
+    display: flex;
+    width: 122px;
+    align-items: center;
+    border: none;
+    padding: 16px 0px;
+}
+input[type="number"]::placeholder{
+    text-align: center;
+}
+.quantity{
+    position: relative;
+    width: 122px;
+    margin-bottom: 48px;
+}
+.quantity img{
+    position: absolute;
+        height: 22px;
+        width: 11px;
+        right: 16px;
+        bottom: 14px;
+}
+#minus{
+    left: 16px;
+    right: 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 337px;
+}
+.buttons a{
+    padding: 16px 32px;
+    text-decoration: none;
+}
+#save{
+    background: rgb(255, 255, 255);
+    color: rgb(42, 37, 75);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 16px;
+}
+#cart{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+    background: rgb(42, 37, 75);
+}
+.cards{
+    display: none;
+}
+.cards2{
+    display: flex;
+    margin-left: 80px;
+}
+.cards2 img{
+    height: 375px;
+    margin-right: 20px;
+}
+#sec2_txt{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 32px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 80px;
+margin-top: 64px;
+margin-bottom: 25px;
+}
+.name{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin: 0;
+}
+.price{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 18px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.see_collection{
+    padding: 16px 32px;
+    margin-left: 635px;
+    background: rgb(249, 249, 249);
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-decoration: none;
+text-align: left;
+
+}
+.buttons2{
+    margin-top: 44px;
+}
+
+.feature_card{
+    background: rgb(249, 249, 249);
+    padding: 48px;
+}
+.features2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+    margin-bottom: 80px;
+}
+.feat_main{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+width: 199px;
+}
+.feat_desc{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+width: 209px;
+}
+.feat_head{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 24px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 80px;
+text-align: center;
+margin-bottom: 36px;
+}
+.section4{
+    display: flex;
+}
+.section4 img{
+    width: 720px;
+    height: 521px;
+}
+#responsive_email_photo{
+    display: none;
+}
+.sign_head{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 32px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 21px;
+}
+.sign_desc{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 216px;
+width: 470px;
+}
+.signup{
+    margin-left: 72px;
+    margin-top: 71px;
+}
+input[type="email"]::placeholder{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.2;
+width: 117px;
+}
+.sign_input input{
+    border: none;
+    background: rgb(249, 249, 249);
+    height: 56px;
+    padding: 0px 32px;
+}
+.sign_input a{
+    background: rgb(42, 37, 75);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 16px 32px;
+}
+footer{
+    background: rgb(42, 37, 75);
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+.address h1{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 36px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-decoration: none;
+text-align: left;
+margin-bottom: 16px;
+}
+.address a{
+    text-decoration: none;
+}
+#address{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.address{
+    margin-left: 80px;
+}
+#copyright{
+    background: rgb(42, 37, 75);
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+padding-left: 80px;
+padding-bottom: 20px;
+    padding-top: 16.5px;
+text-align: left;
+}
+#foot_hr{
+    border: 1px solid rgb(78, 77, 147);
+    width: 1277px;
+    margin-left: 80px;
+    margin-top: 35.5px;
+}
+.foot1{
+    display: flex;
+    padding-top: 53px;
+}
+.social_icons{
+    display: flex;
+}
+.social_icons img{
+    margin-right: 24px;
+}
+.social_link p{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 22px;
+}
+.social_link{
+    margin-left: 65px;
+}
+.new_arrivals{
+    margin-right: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.new_arrivals h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.new_arrivals a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.our_company{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.our_company h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.our_company a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+margin-top: 12px;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-right: 135px;
+}
+.categories h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.categories a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.foot2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 170px;
+    padding-top: 53px;
+}
