@@ -417,7 +417,7 @@
         text-align: left;
         opacity: 0.2;
     }
-    .sign_input a{
+    .sign_input button{
         background: rgb(42, 37, 75);
         text-decoration: none;
         color: rgb(255, 255, 255);

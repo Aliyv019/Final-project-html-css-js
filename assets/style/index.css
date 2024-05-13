@@ -246,3 +246,161 @@ padding: 16px 32px;
     background-position: center;
     height: 444px;
 }
+.club_info{
+    display: none;
+}
+.sign_input{
+    display: flex;
+    padding-top: 302px;
+    padding-left: 484px;
+}
+input[type="email"]::placeholder{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.2;
+width: 117px;
+}
+.sign_input input{
+    border: none;
+    background: rgb(249, 249, 249);
+    height: 60px;
+    width: 354px;
+    margin: 0;
+    padding: 0px 32px;
+}
+.sign_input button{
+    background: rgb(42, 37, 75);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 16px 32px;
+        margin: 0;
+}
+
+
+
+
+
+footer{
+    background: rgb(42, 37, 75);
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+
+#copyright{
+    background: rgb(42, 37, 75);
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+padding-left: 80px;
+padding-bottom: 20px;
+    padding-top: 16.5px;
+text-align: left;
+}
+#foot_hr{
+    border: 1px solid rgb(78, 77, 147);
+    width: 1277px;
+    margin-left: 80px;
+    margin-top: 35.5px;
+}
+
+.new_arrivals{
+    margin-right: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.new_arrivals h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.new_arrivals a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.our_company{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.our_company h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.our_company a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+margin-top: 12px;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-right: 135px;
+}
+.categories h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.categories a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.foot2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 82px;
+    padding-top: 58px;
+}

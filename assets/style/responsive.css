@@ -175,5 +175,238 @@
         height: 259px;
         margin: 0;
     }
-    
+    .section5{
+        background: url(../image/club_image_responsive.png);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        padding: 24px 24px 32px;
+    }
+    .club_info ul{
+        list-style-image: url(../image/check_club.svg);
+        margin-left: 20px;
+    }
+    .club_info h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 12px;
+    }
+    .club_info p{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .club_info li{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    .club_info{
+        display: block;
+        margin-bottom: 28px;
+    }
+    .sign_input{
+        display: flex;
+        padding: 0;
+
+    }
+    .sign_input input{
+        padding: 17px 0px 17px 32px;
+        background: rgb(249, 249, 249);
+        border: none;
+        height: 60px;
+        width: 224px;
+        padding: 0;
+        padding-left: 32px;
+    }
+    .sign_input input[type=email]::placeholder{
+        color: rgb(42, 37, 75);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        opacity: 0.2;
+    }
+    .sign_input button{
+        background: rgb(42, 37, 75);
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        width: 118px;
+        padding: 16px 0;
+
+    }
+
+
+
+
+
+
+    footer{
+        background: rgb(42, 37, 75);
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 65px 0px 24px;
+    }
+    footer h1{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 40px;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    #address{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .address{
+        width: 152px;
+        padding: 0;
+        margin: 0;
+    }
+    .social_link{
+        margin-left: 29px;
+        margin-top: 57px;
+    }
+    .social_link p{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 29px;
+    }
+    .foot1{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .our_company h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .our_company{
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+    }
+    .our_company a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration: none;
+        margin-top: 12px;
+    }
+    .foot2{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .new_arrivals{
+        display: flex;
+        flex-direction: column;
+        margin-left: 76px;
+        margin-top: 48px;
+    }
+    .new_arrivals h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .new_arrivals a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 12px;
+    }
+    #foot_hr{
+        width: 342px;
+        border: 1px solid rgb(78, 77, 147);
+        
+        margin: 39.5px 24px 20.5px;
+    }
+    #copyright{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+    .cards2{
+        display: none;
+    }
+    .social_icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .categories{
+        display: none;
+    }
+    .icons1{
+        display: flex;
+    }
+    .icons2{
+        display: flex;
+    }
+    .social_icons img{
+        margin-bottom: 24px;
+    }
 }
