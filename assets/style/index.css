@@ -254,7 +254,7 @@ padding: 16px 32px;
     padding-top: 302px;
     padding-left: 484px;
 }
-input[type="email"]::placeholder{
+.sign_input input[type="email"]::placeholder{
     color: rgb(42, 37, 75);
 font-family: Satoshi;
 font-size: 16px;
@@ -403,4 +403,41 @@ text-decoration: none;
     flex-direction: row-reverse;
     margin-left: 82px;
     padding-top: 58px;
+}
+.mail_input{
+    margin-left: 109px;
+}
+.mail_input input[type="email"]::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.mail_input input{
+    padding: 22.5px 360px 22.5px 32px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+.mail_input p{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+.mail_input button{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+padding: 16px 32px;
 }
