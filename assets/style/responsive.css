@@ -345,6 +345,7 @@
     .foot2{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         margin: 0;
     }
     .new_arrivals{
@@ -408,5 +409,15 @@
     }
     .social_icons img{
         margin-bottom: 24px;
+    }
+    .mail_input{
+        margin: 0;
+    }   
+    #input_mail{
+        padding-right: 23px;
+    }
+    .foot1{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

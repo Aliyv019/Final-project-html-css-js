@@ -406,6 +406,7 @@ text-decoration: none;
 }
 .mail_input{
     margin-left: 109px;
+    margin-top: 58px;
 }
 .mail_input input[type="email"]::placeholder{
     color: rgb(255, 255, 255);
@@ -417,7 +418,7 @@ text-decoration: none;
     text-align: left;
 }
 .mail_input input{
-    padding: 22.5px 360px 22.5px 32px;
+    padding: 22.5px 308px 22.5px 32px;
     background: rgba(255, 255, 255, 0.15);
     border: none;
 }
@@ -440,4 +441,12 @@ line-height: 150%;
 letter-spacing: 0%;
 text-align: left;
 padding: 16px 32px;
+border: none;
+}
+.mail_input2{
+    display: flex;
+}
+.foot1{
+    display: flex;
+    flex-direction: row-reverse;
 }
