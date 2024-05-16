@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    height: 41px;
+    background: rgb(42, 37, 75);
+    display: flex;
+    justify-content: center;
+    padding-right: 16px;
+}
+.head_icon img{
+    background-color: rgb(42, 37, 75)
+}
+.head_text a{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.head_text{
+    display: flex;
+    align-items: center;
+}
+.head_text p{
+    color: rgb(255, 255, 255);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    margin-left: 8px;
+}
+#menu_icon{
+    display: none;
+}
+#menu_icon2{
+    display: none;
+}
+nav{
+    height: 80px;
+    display: flex;
+    padding-left: 28px;
+    padding-right: 51px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_menu{
+
+    text-decoration: none;
+    
+}
+.main_menu h1{
+    color: rgb(34, 32, 46);
+    font-family: Clash Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-right: 44px;
+}
+nav ul a{
+    color: rgb(114, 110, 141);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    
+    align-items: center;
+}
+.icons img{
+    width: 20px;
+    margin-left: 16px;
+}
+.nav_sec ul{
+    display: flex;
+    list-style: none;
+}
+.nav_sec ul li{
+    text-decoration: none;
+    color: rgb(114, 110, 141);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 44px;
+}
+.nav_sec a{
+    text-decoration: none;
+}
+.nav_sec{
+    display: flex;
+    height: 64px;
+    background: rgb(249, 249, 249);
+    justify-content: center;
+    align-items: center;
+}
+.sec1 p{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 36px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.sec1 a{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+align-items: center;
+background: rgb(249, 249, 249);
+padding: 0px 32px;
+height: 56px;
+text-decoration: none;
+
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 128px;
+}

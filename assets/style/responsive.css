@@ -329,7 +329,7 @@
     .our_company{
         display: flex;
         flex-direction: column;
-        margin-top: 48px;
+        margin-top: 0px;
     }
     .our_company a{
         color: rgb(255, 255, 255);
@@ -351,8 +351,9 @@
     .new_arrivals{
         display: flex;
         flex-direction: column;
-        margin-left: 76px;
-        margin-top: 48px;
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     .new_arrivals h2{
         color: rgb(255, 255, 255);
@@ -389,7 +390,6 @@
         padding: 0;
         text-align: center;
         padding-bottom: 20px;
-        
     }
     .cards2{
         display: none;
@@ -399,7 +399,8 @@
         flex-direction: column;
     }
     .categories{
-        display: none;
+        margin: 0;
+        margin-left: 96px;
     }
     .icons1{
         display: flex;
@@ -420,4 +421,17 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .foot2{
+        padding: 0;
+        display: flex;
+        
+    }
+    .foot_icons{
+        display: none;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
