@@ -101,9 +101,330 @@
         align-items: center;
         padding: 32px 24px;
     }
+    .sec1 p{
+        margin-bottom: 40px;
+    }
     .sec1 a{
         padding: 0px 107px;
         display: flex;
         align-items: center;
+    }
+    .sec2{
+        padding: 32px 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    .small_idea{
+        width: auto;
+        padding: 36px 32px 30px;
+        margin-bottom: 24px;
+        height: 215px;
+    }
+    .small_idea_1 h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .small_idea_1 p{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .small_idea a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 16px 0;
+        width: 100%;
+    }
+    .sec2 img{
+        width: 100%;
+    }
+    .sec3{
+        display: flex;
+        flex-direction: column;
+    }
+    #index_feat{
+        display: none;
+    }
+    #responsive_feat{
+        display: block;
+    }
+    .sec3 img{
+        width: 100%;
+    }
+    .feature{
+        padding: 0;
+        padding-bottom: 62px;
+        width: 100%;
+        align-items: normal;
+        height: 478px;
+    }
+    .feature_text h2{
+        margin-bottom: 12px;
+        width: 80.1%;
+    }
+    .feature_text{
+        margin: 48px 24px;
+    }
+    .feature a{
+        margin: 0 24px;
+    }
+    .features{
+        margin: 38px 24px 0px;
+        
+    }
+    .features2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .feat_head{
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 274px;
+        margin-top: 0;
+    }
+    .feat_main{
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .feat_desc{
+        color: rgb(42, 37, 75);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .feature_card{
+        background: rgb(249, 249, 249);
+        padding: 24px 36px;
+        margin-bottom: 26px;
+        width: 82.6%;
+    }
+    .club_info h2{
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .club_info p{
+        color: rgb(42, 37, 75);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        width: 100%;
+        text-align: left;
+    }
+    .sec5{
+        background: rgb(255, 255, 255);
+        
+    }
+    .club_info{
+        margin: 0;
+        align-items: baseline;
+    }
+    .sign_input input{
+        padding: 17px 0px 17px 32px;
+        background: rgb(249, 249, 249);
+        border: none;
+        height: 60px;
+        width: 202.45px;
+        padding: 0;
+        padding-left: 32px;
+    }
+    .sign_input button{
+        text-align: center;
+        width: 118px;
+        padding: 16px 0;
+    }
+    .sign_input{
+        margin: 0 24px 38px;
+        width: 100%;
+    }
+    .sec5_in{
+        padding: 0;
+        margin: 0;
+        height: 292px;
+    }
+    .sec4{
+        padding-bottom: 50px;
+    }
+    footer{
+        background: rgb(42, 37, 75);
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 65px 0px 24px;
+    }
+    footer h1{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 40px;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    #address{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .address{
+        width: 152px;
+        padding: 0;
+        margin: 0;
+    }
+    .social_link{
+        margin-left: 29px;
+        margin-top: 57px;
+    }
+    .social_link p{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 29px;
+    }
+    .foot1{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .our_company h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .our_company{
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+    }
+    .our_company a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration: none;
+        margin-top: 12px;
+    }
+    .foot2{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .new_arrivals{
+        display: flex;
+        flex-direction: column;
+        margin-left: 76px;
+        margin-top: 48px;
+        margin-right: 0;
+    }
+    .new_arrivals h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .new_arrivals a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 12px;
+    }
+    #foot_hr{
+        width: 342px;
+        border: 1px solid rgb(78, 77, 147);
+        
+        margin: 39.5px 24px 20.5px;
+    }
+    #copyright{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+    .cards2{
+        display: none;
+    }
+    .social_icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .categories{
+        display: none;
+    }
+    .icons1{
+        display: flex;
+    }
+    .icons2{
+        display: flex;
+    }
+    .social_icons img{
+        margin-bottom: 24px;
     }
 }

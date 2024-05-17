@@ -144,3 +144,390 @@ text-decoration: none;
     justify-content: space-between;
     padding: 88px 128px;
 }
+.small_idea_1 h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 32px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+.small_idea_1 p{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.small_idea a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+padding: 16px 32px;
+text-decoration: none;
+background: rgba(249, 249, 249, 0.15);
+}
+.small_idea{
+    background: rgb(42, 37, 75);
+    padding: 64px 75px 54px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 38.671875%;
+    height: 360px;
+}
+.sec2{
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2 img{
+    width: 47.73%;
+}
+.sec3{
+    display: flex;
+}
+.feature{
+    background: rgb(249, 249, 249);
+    height: 603px;
+    width: 50%;
+    padding: 0px 100px 0px 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.sec3 img{
+    width: 50%;
+}
+.feature_text h2{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 24px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 25px;
+}
+.feature_text p{
+    color: rgb(80, 89, 119);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.feature a{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+background: rgb(255, 255, 255);
+padding: 16px 32px;
+margin-bottom: 54px;
+}
+.feature_text{
+    margin-top: 72px;
+}
+#responsive_feat{
+    display: none;
+}
+.feature_card{
+    background: rgb(249, 249, 249);
+    padding: 48px;
+}
+.features2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+    margin-bottom: 80px;
+}
+.feat_main{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+width: 199px;
+}
+.feat_desc{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+width: 209px;
+}
+.feat_head{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 24px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 80px;
+text-align: center;
+margin-bottom: 36px;
+}
+.sec5{
+    background: rgb(249, 249, 249);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec5_in{
+    background: rgb(255, 255, 255);
+    width: 88.4%;
+    height: 364px;
+    margin: 52px 74px 65px 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.club_info h2{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 36px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+.club_info p{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+width: 66.89%;
+}
+.club_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 68px;
+}
+.sign_input{
+    display: flex;
+    margin-bottom: 54px;
+    
+}
+.sign_input input[type="email"]::placeholder{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.2;
+width: 117px;
+}
+.sign_input input{
+    border: none;
+    background: rgb(249, 249, 249);
+    height: 60px;
+    width: 354px;
+    margin: 0;
+    padding: 0px 32px;
+}
+.sign_input button{
+    background: rgb(42, 37, 75);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 16px 32px;
+        margin: 0;
+}
+
+footer{
+    background: rgb(42, 37, 75);
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+.address h1{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 36px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-decoration: none;
+text-align: left;
+margin-bottom: 16px;
+}
+.address a{
+    text-decoration: none;
+}
+#address{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.address{
+    margin-left: 80px;
+}
+#copyright{
+    background: rgb(42, 37, 75);
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+padding-left: 80px;
+padding-bottom: 20px;
+    padding-top: 16.5px;
+text-align: left;
+}
+#foot_hr{
+    border: 1px solid rgb(78, 77, 147);
+    width: 1277px;
+    margin-left: 80px;
+    margin-top: 35.5px;
+}
+.foot1{
+    display: flex;
+    padding-top: 53px;
+}
+.social_icons{
+    display: flex;
+}
+.social_icons img{
+    margin-right: 24px;
+}
+.social_link p{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 22px;
+}
+.social_link{
+    margin-left: 65px;
+}
+.new_arrivals{
+    margin-right: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.new_arrivals h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.new_arrivals a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.our_company{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.our_company h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.our_company a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+margin-top: 12px;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-right: 135px;
+}
+.categories h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.categories a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.foot2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 170px;
+    padding-top: 53px;
+}
