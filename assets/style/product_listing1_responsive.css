@@ -435,7 +435,8 @@
     .footer{
         display: flex;
         flex-direction: column;
-        padding: 40px 65px 0px 24px;
+        width: auto;
+        padding: 40px 0px 0px 24px;
     }
     footer h1{
         color: rgb(255, 255, 255);

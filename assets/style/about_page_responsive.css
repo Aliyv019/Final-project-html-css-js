@@ -68,6 +68,7 @@
     .nav_sec a{
         height: 22px;
     }
+    
     .ul1 li:nth-child(4){
         display: none;
     }
@@ -91,8 +92,12 @@
         align-items: center;
         justify-content:start;
     }
+    .nav_sec ul li{
+        margin-right: 33px;
+    }
     .nav_sec ul{
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
     .sec1{
@@ -285,8 +290,9 @@
     }
     .footer{
         display: flex;
+        width: auto;
         flex-direction: column;
-        padding: 40px 65px 0px 24px;
+        padding: 40px 0px 0px 24px;
     }
     footer h1{
         color: rgb(255, 255, 255);
