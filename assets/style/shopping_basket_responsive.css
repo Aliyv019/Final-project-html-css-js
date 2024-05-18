@@ -1,0 +1,304 @@
+@media screen and (max-width:390px) {
+    nav{
+        display: none;
+    }
+    .head1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 0;
+    }
+    .search{
+        position: absolute;
+        right: 56px;
+    }
+    .menu{
+        display: block;
+        margin-right: 20px;
+    }
+    .user{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .head_icons{
+        margin: 0;
+        display: flex;
+    }
+    .home{
+        margin: 20px 24px;
+    }
+    header hr{
+        display: none;
+    }
+    .quantity1{
+        margin: 0;
+        position: relative;
+    }
+    .quantity1 label{
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .quantity1 input{
+        background: rgb(249, 249, 249);
+        margin-top: 8px;
+        display: flex;
+        width: 122px;
+        align-items: center;
+        border: none;
+        padding: 16px 0px;
+    }
+    input[type="number"]::placeholder{
+        text-align: center;
+    }
+    .quantity1 img{
+        position: absolute;
+        height: 22px;
+        width: 11px;
+        right: 16px;
+        bottom: 14px;
+    }
+    #minus{
+        left: 16px;
+        right: 0;
+    }
+    footer{
+        background: rgb(42, 37, 75);
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 65px 0px 24px;
+    }
+    footer h1{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 40px;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    #address{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .address{
+        width: 152px;
+        padding: 0;
+        margin: 0;
+    }
+    .social_link{
+        margin-left: 29px;
+        margin-top: 57px;
+    }
+    .social_link p{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 29px;
+    }
+    .foot1{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .our_company h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .our_company{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .our_company a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration: none;
+        margin-top: 12px;
+    }
+    .foot2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .new_arrivals{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .new_arrivals h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .new_arrivals a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 12px;
+    }
+    #foot_hr{
+        width: 342px;
+        border: 1px solid rgb(78, 77, 147);
+        
+        margin: 39.5px 24px 20.5px;
+    }
+    #copyright{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .cards2{
+        display: none;
+    }
+    .social_icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .categories{
+        margin: 0;
+        margin-left: 96px;
+    }
+    .icons1{
+        display: flex;
+    }
+    .icons2{
+        display: flex;
+    }
+    .social_icons img{
+        margin-bottom: 24px;
+    }
+    .mail_input{
+        margin: 0;
+    }   
+    #input_mail{
+        padding-right: 23px;
+    }
+    .foot1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .foot2{
+        padding: 0;
+        display: flex;
+        
+    }
+    .foot_icons{
+        display: none;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+    }
+    .products h1{
+        display: block;
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 32px;
+    }
+    main{
+        padding: 0;
+    }
+    .products{
+        display: flex;
+        background: rgb(249, 249, 249);
+        flex-direction: column;
+        align-items: start;
+        padding: 36px 24px 50px;
+    }
+    .list{
+        display: none;
+    }
+    .card_text{
+        width: 179px;
+    }
+    .total{
+        display: none;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_in1{
+        display: flex;
+    }
+    .quantity1{
+        display: block;
+        width: 132px;
+    }
+    .quantity{
+        display: none;
+    }
+    .card_img{
+        width: 133px;
+    }
+    #after_list{
+        display: none;
+    }
+    #after_card{
+        border: 1px solid rgb(235, 232, 244);
+        width: 100%;
+    }
+    .checkout{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+    .checkout_button{
+        width: 100%;
+    }
+}

@@ -54,3 +54,372 @@ text-align: left;
 .Cutlery{
     margin: 0;
 }
+.quantity label{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.quantity input{
+    margin-top: 8px;
+    display: flex;
+    width: 122px;
+    align-items: center;
+    border: none;
+    padding: 16px 0px;
+    background: rgb(249, 249, 249);
+}
+input[type="number"]::placeholder{
+    text-align: center;
+}
+.quantity{
+    position: relative;
+    width: 122px;
+    margin-bottom: 48px;
+}
+.quantity img{
+    position: absolute;
+        height: 22px;
+        width: 11px;
+        right: 16px;
+        bottom: 14px;
+}
+#minus{
+    left: 16px;
+    right: 0;
+}
+main{
+    background: rgb(249, 249, 249);
+    padding: 84px 80px;
+}
+.products{
+    background: rgb(255, 255, 255);
+    padding: 72px 62px 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15.5px;
+    width: 100%;
+}
+.list p{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+#quantity{
+    margin-left: 50%;
+}
+.card{
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.card_in{
+    display: flex;
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12px 24px;
+    width: 232px;
+}
+.card_img{
+    width: 109px;
+}
+.card_text h2{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.card_text p{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.card_text h3{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.quan_tot_p{
+    display: flex;
+    justify-content: space-between;
+    width: 383px;
+}
+.quan_tot{
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+}
+.total{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 18px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+#after_list{
+    border: 1px solid rgb(249, 249, 249);
+    margin-bottom: 28.5px;
+}
+#after_card{
+    border: 1px solid rgb(249, 249, 249);
+    margin-bottom: 20.5px;
+}
+.checkout a{
+    color: rgb(78, 77, 147);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: right;
+text-decoration: none;
+}
+.checkout1 p{
+    color: rgb(78, 77, 147);
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: right;
+margin-right: 16px;
+}
+.checkout1 h2{
+    color: rgb(42, 37, 75);
+font-family: Clash Display;
+font-size: 24px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: right;
+}
+.checkout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.checkout1{
+    display: flex;
+    align-items: center;
+}
+.checkout_button{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+padding: 16px 0px;
+width: 172px;
+background: rgb(42, 37, 75);
+text-decoration: none;
+}
+footer{
+    background: rgb(42, 37, 75);
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+
+#copyright{
+    background: rgb(42, 37, 75);
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+padding-left: 80px;
+padding-bottom: 20px;
+    padding-top: 16.5px;
+text-align: left;
+}
+#foot_hr{
+    border: 1px solid rgb(78, 77, 147);
+    width: 1277px;
+    margin-left: 80px;
+    margin-top: 35.5px;
+}
+
+.new_arrivals{
+    margin-right: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.new_arrivals h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.new_arrivals a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.our_company{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.our_company h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.our_company a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+margin-top: 12px;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-right: 135px;
+}
+.categories h2{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.categories a{
+    color: rgb(255, 255, 255);
+font-family: Satoshi;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-decoration: none;
+}
+.foot2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 82px;
+    padding-top: 58px;
+}
+.mail_input{
+    margin-left: 109px;
+    margin-top: 58px;
+}
+.mail_input input[type="email"]::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.mail_input input{
+    padding: 22.5px 308px 22.5px 32px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+.mail_input p{
+    color: rgb(255, 255, 255);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+.mail_input button{
+    color: rgb(42, 37, 75);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+padding: 16px 32px;
+border: none;
+}
+.mail_input2{
+    display: flex;
+}
+.foot1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.foot_icons{
+    display: flex;
+    align-items: center;
+    margin-right: 83px;
+}
+.foot_icons img{
+    margin-left: 24px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.products h1{
+    display: none;
+}
+.quantity1{
+    display: none;
+}
