@@ -63,6 +63,16 @@ nav ul{
 nav li{
     margin-right: 44px;
 }
+header li{
+    margin-right: 44px;
+    color: rgb(114, 110, 141);
+font-family: Satoshi;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
 nav ul a{
     color: rgb(114, 110, 141);
     font-family: Satoshi;

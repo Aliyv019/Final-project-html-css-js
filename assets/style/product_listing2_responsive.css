@@ -1,0 +1,295 @@
+@media screen and (max-width:390px) {
+    nav{
+        display: none;
+    }
+    .head1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 0;
+    }
+    .search{
+        position: absolute;
+        right: 56px;
+    }
+    .menu{
+        display: block;
+        margin-right: 20px;
+    }
+    .user{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .head_icons{
+        margin: 0;
+        display: flex;
+    }
+    .home{
+        margin: 20px 24px;
+    }
+    header hr{
+        display: none;
+    }
+    .all_products{
+        height: 146px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .all_products h1{
+        padding: 0;
+    }
+    .drops1{
+        display: none;
+    }
+    .drops2{
+        display: none;
+    }
+    .drops_res{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .drops_res p{
+        color: rgb(42, 37, 75);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .drops_res button{
+        background: rgb(249, 249, 249);
+        border: none;
+        width: 100%;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .all_cards{
+        padding: 20px 24px 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropdowns{
+        width: 95%;
+        display: flex;
+        
+    }
+    .cards{
+        margin-top: 32px;
+        padding: 0;
+    }
+    #filters{
+        margin-right: 16px;
+    }
+    #cards2{
+        display: none;
+    }
+    .card img{
+        width: 163px;
+        margin-bottom: 24px;
+    }
+    .card h2{
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    .card p{
+        color: rgb(42, 37, 75);
+        font-family: Satoshi;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .card{
+        margin-bottom: 20px;
+    }   
+    .all_cards a{
+        width: 81.27%;
+    }
+    footer{
+        background: rgb(42, 37, 75);
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 65px 0px 24px;
+    }
+    footer h1{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 40px;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    #address{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .address{
+        width: 152px;
+        padding: 0;
+        margin: 0;
+    }
+    .social_link{
+        margin-left: 29px;
+        margin-top: 57px;
+    }
+    .social_link p{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 29px;
+    }
+    .foot1{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .our_company h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .our_company{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .our_company a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration: none;
+        margin-top: 12px;
+    }
+    .foot2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .new_arrivals{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .new_arrivals h2{
+        color: rgb(255, 255, 255);
+        font-family: Clash Display;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .new_arrivals a{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 12px;
+    }
+    #foot_hr{
+        width: 342px;
+        border: 1px solid rgb(78, 77, 147);
+        
+        margin: 39.5px 24px 20.5px;
+    }
+    #copyright{
+        color: rgb(255, 255, 255);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .cards2{
+        display: none;
+    }
+    .social_icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .categories{
+        margin: 0;
+        margin-left: 96px;
+    }
+    .icons1{
+        display: flex;
+    }
+    .icons2{
+        display: flex;
+    }
+    .social_icons img{
+        margin-bottom: 24px;
+    }
+    .mail_input{
+        margin: 0;
+    }   
+    #input_mail{
+        padding-right: 23px;
+    }
+    .foot1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .foot2{
+        padding: 0;
+        display: flex;
+        
+    }
+    .foot_icons{
+        display: none;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+    }
+}
