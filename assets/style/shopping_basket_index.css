@@ -23,11 +23,17 @@ text-decoration: none;
     align-items: center;
     justify-content: space-between;
     padding: 20px 28px;
+    width: 95%;
 }
 header hr{
     border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 1386px;
-    margin-left: 28px;
+    width: 95%;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 nav ul a{
     color: rgb(114, 110, 141);
@@ -64,7 +70,7 @@ text-align: left;
 .Cutlery{
     margin: 0;
 }
-.quantity label{
+/* .quantity label{
     color: rgb(42, 37, 75);
 font-family: Clash Display;
 font-size: 16px;
@@ -72,41 +78,62 @@ font-weight: 400;
 line-height: 20px;
 letter-spacing: 0%;
 text-align: left;
-}
+} */
 .quantity input{
-    margin-top: 8px;
+    
     display: flex;
     width: 122px;
     align-items: center;
     border: none;
     padding: 16px 0px;
     background: rgb(249, 249, 249);
+    z-index: 0;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
 }
 input[type="number"]::placeholder{
     text-align: center;
 }
 .quantity{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 122px;
-    margin-bottom: 48px;
+    
+    
 }
-.quantity img{
+.quan_btn{
+    /* pointer-events: none; */
+    padding: 0+5px;
     position: absolute;
-        height: 22px;
-        width: 11px;
-        right: 16px;
-        bottom: 14px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+
 }
-#minus{
-    left: 16px;
-    right: 0;
+.quantity button img{
+    height: 22px;
+    width: 11px;
+}
+.quantity button{
+
+    z-index: 1;
+    border: none;
+        background: transparent;
 }
 main{
     background: rgb(249, 249, 249);
     padding: 84px 80px;
 }
 .products{
-    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255); 
     padding: 72px 62px 54px;
     display: flex;
     flex-direction: column;
@@ -182,8 +209,12 @@ text-align: left;
     justify-content: space-between;
     width: 383px;
 }
+.quan_tot input{
+    text-align: center;
+}
 .quan_tot{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 410px;
 }
@@ -258,7 +289,9 @@ text-decoration: none;
 }
 footer{
     background: rgb(42, 37, 75);
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer{
     width: 100%;
@@ -274,15 +307,14 @@ font-size: 14px;
 font-weight: 400;
 line-height: 19px;
 letter-spacing: 0%;
-padding-left: 80px;
 padding-bottom: 20px;
     padding-top: 16.5px;
 text-align: left;
 }
 #foot_hr{
     border: 1px solid rgb(78, 77, 147);
-    width: 1277px;
-    margin-left: 80px;
+    width: 88.6%;
+    
     margin-top: 35.5px;
 }
 
@@ -366,7 +398,7 @@ text-decoration: none;
 .foot2{
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 82px;
+    
     padding-top: 58px;
 }
 .mail_input{
@@ -414,11 +446,12 @@ border: none;
 .foot1{
     display: flex;
     flex-direction: row-reverse;
+    width: 88.6%;
+    justify-content: space-between;
 }
 .foot_icons{
     display: flex;
     align-items: center;
-    margin-right: 83px;
 }
 .foot_icons img{
     margin-left: 24px;
@@ -426,6 +459,7 @@ border: none;
 .foot{
     display: flex;
     justify-content: space-between;
+    width: 88.6%;
 }
 .products h1{
     display: none;
