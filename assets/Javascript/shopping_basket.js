@@ -63,7 +63,7 @@ quan_tot1.appendChild(quantity1)
 quan_tot1.appendChild(total1)
 const plusButton1 = document.querySelector('.plus');
 const minusButton1 = document.querySelector('.minus');
-const input1=document.querySelector('.input');
+const input1=document.querySelector('.input')
 function add1(){
     sum_2++
     input1.value=sum_2
