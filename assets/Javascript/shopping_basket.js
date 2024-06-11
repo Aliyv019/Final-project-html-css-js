@@ -7,7 +7,7 @@
     const quantity = document.createElement('div');
     quantity.classList.add('quantity');
     quantity.innerHTML = `
-        <input type="number" value="${sum_1}" id="text">
+        <input type="number" value="${sum_1}" id="text" class="input_1">
         <div class="quan_btn">
             <button id="minus"><img src="../image/minus.svg"></button>
             <button id="plus"><img src="../image/plus.svg"></button>
@@ -16,6 +16,7 @@
     const total = document.createElement('p');
     total.classList.add('total');
     total.innerHTML = `£${sum_1*price_1}`;
+    const input_1=document.querySelector(".input_1")
 
     quan_tot.appendChild(quantity);
     quan_tot.appendChild(total);
@@ -41,6 +42,7 @@
     
     plusButton.addEventListener('click', add);
     minusButton.addEventListener('click', subtract);
+    
 
 
 let sum_2=1
