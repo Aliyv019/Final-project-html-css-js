@@ -42,7 +42,11 @@
     
     plusButton.addEventListener('click', add);
     minusButton.addEventListener('click', subtract);
-    
+    input.addEventListener('change',()=>{
+        sum_1=input.value
+        total.textContent=`£${sum_1*price_1}`
+        total_price.textContent=`£${sum_1*price_1+sum_2*price_2}`
+    })
 
 
 let sum_2=1
@@ -65,7 +69,7 @@ quan_tot1.appendChild(quantity1)
 quan_tot1.appendChild(total1)
 const plusButton1 = document.querySelector('.plus');
 const minusButton1 = document.querySelector('.minus');
-const input1=document.querySelector('.input')
+const input1=quantity1.querySelector('.input')
 function add1(){
     sum_2++
     input1.value=sum_2
@@ -81,5 +85,11 @@ function subtract1(){
     }
 }
 
+function func2(){
+    sum_2=quantity1.querySelector('.input').value
+    total1.textContent=`£${sum_2*price_2}`
+    total_price.textContent=`£${sum_1*price_1+sum_2*price_2}`
+}
 plusButton1.addEventListener('click',add1)
 minusButton1.addEventListener('click',subtract1)
+input1.addEventListener('change', func2)
